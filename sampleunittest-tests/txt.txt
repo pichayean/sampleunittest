@@ -1,0 +1,2 @@
+dotnet test --logger "trx;logfilename=mytests.trx" --results-directory ./somefolder/subfolder
+dotnet test --logger html -r TestResults
